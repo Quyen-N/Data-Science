@@ -12,15 +12,15 @@ I used an autoencoder model to solve this problem. It has **encoder:** (50 input
 
 
 **How to know if a connection is good or bad with this model?**
-Note: my python ver is 3.10
+ (note: my python ver is 3.10)
 
 - First, clone this repo and set up needed libraries in requirements.txt with this command: pip install -r requirements.txt
 - Second, run the main.py with this command: python main.py
 
 The main.py will printout the result if the connection is "bad connection" or "normal.".
-You can change the input to the main.py by changing data in samples.csv file, or change the path in main.py.
+ You can change the input to the main.py by changing data in samples.csv file, or change the path in main.py.
 
 I am using threshold = 0.004 with Precision = 0.986 and Recall = 0.995.
-If you want higher Recall please decrease the threshold, or increase it if you want higher Precision.
+ If you want higher Recall please decrease the threshold, or increase it if you want higher Precision.
 
 Thanks for interesting in my repo.
